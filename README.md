@@ -1,2 +1,5 @@
-# inf6200-h2022-benoit-dubreuil
+# UQÀM – LINUM
 
+## Hiver 2022
+
+### INF6200 – Initiation à la recherche
