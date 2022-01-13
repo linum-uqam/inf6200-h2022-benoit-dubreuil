@@ -53,7 +53,7 @@ class EnvBuilderInstallReqs(venv.EnvBuilder):
         include_file_mode: Final[int] = 0o660
         include_file_encoding: Final[str] = encodings.utf_8.getregentry().name
 
-        include_file.parent.mkdir(parents=True, exist_ok=True)
+        include_file.parent.mkdir(exist_ok=True)
         include_file.touch(mode=include_file_mode)
         include_file.write_text(data=file_content, encoding=include_file_encoding)
     @staticmethod
