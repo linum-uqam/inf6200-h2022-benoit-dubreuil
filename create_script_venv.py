@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 import encodings
-import os
 import subprocess
 import venv
 
