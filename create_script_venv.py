@@ -11,8 +11,7 @@ from typing import Final
 
 PROJECT_NAME: Final[str] = 'inf6200-h2022-benoit-dubreuil'
 
-ROOT_DIR: Final[Path] = Path().absolute()
-ROOT_DIR.resolve(strict=True)
+ROOT_DIR: Final[Path] = Path().absolute().resolve(strict=True)
 
 CONF_DIR_NAME: Final[str] = 'conf'
 CONF_DIR: Final[Path] = ROOT_DIR / CONF_DIR_NAME
