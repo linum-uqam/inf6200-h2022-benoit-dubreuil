@@ -88,7 +88,7 @@ class EnvBuilderInstallReqs(venv.EnvBuilder):
         return include_file_name
 
     @classmethod
-    def __include_dir_to_venv_pythonpath(cls, include_dir: Path) -> None:
+    def __include_dir_to_venv_pythonpath(cls, include_dir: Path) -> str:
         relative_dir: Final[Path] = cls.__dir_relative_to_root(include_dir)
         include_file_name = cls.__generate_pythonpath_include_file_name(relative_dir)
 
@@ -96,6 +96,7 @@ class EnvBuilderInstallReqs(venv.EnvBuilder):
         file_content: Final[str] = str(relative_dir.relative_to(VENV_DIR))
         cls.__create_pythonpath_include_file(include_file, file_content)
 
+        return include_file_name
     @staticmethod
     def __create_scripts_path_config_file() -> None:
         path_config_file_dotless_extension: Final[str] = 'pth'
