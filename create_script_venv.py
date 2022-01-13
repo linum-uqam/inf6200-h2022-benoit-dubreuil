@@ -66,6 +66,9 @@ class EnvBuilderInstallReqs(venv.EnvBuilder):
 
     @classmethod
     def __generate_pythonpath_include_file_name(cls, include_dir: Path) -> str:
+        assert include_dir.is_relative_to(ROOT_DIR)
+        assert include_dir.is_dir()
+
         include_file_extension: Final[str] = 'pth'
 
         relative_dir: Final[Path] = cls.__dir_relative_to_root(include_dir)
