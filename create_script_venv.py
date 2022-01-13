@@ -29,7 +29,7 @@ VENV_DIR_NAME: Final[str] = 'venv'
 VENV_DIR: Final[Path] = CONF_DIR / VENV_DIR_NAME
 
 
-def _print_header(message: Final[str])
+def _print_header(message: str):
     print(message)
     print('-' * len(message))
 
