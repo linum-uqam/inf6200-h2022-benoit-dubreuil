@@ -53,10 +53,16 @@ class EnvBuilderInstallReqs(venv.EnvBuilder):
         absolute_dir: Final[Path] = project_subdir.resolve(strict=True)
         assert absolute_dir.is_dir()
 
-        if not project_subdir.is_relative_to(ROOT_DIR) and project_subdir.is_absolute():
-            raise ValueError(f"The supplied directory must be a subdirectory within the hierarchy of the project's root directory { {project_subdir, ROOT_DIR}= }")
+        relative_dir: Path
 
-        return absolute_dir.relative_to(ROOT_DIR)
+        if project_subdir.is_relative_to(ROOT_DIR):
+            relative_dir = absolute_dir.relative_to(ROOT_DIR)
+        elif project_subdir.is_absolute():
+            raise ValueError(f"The supplied directory must be a subdirectory within the hierarchy of the project's root directory { {project_subdir, ROOT_DIR}= }")
+        else:
+            relative_dir = absolute_dir
+
+        return relative_dir
 
     @staticmethod
     def __create_pythonpath_include_file(include_file: Path, file_content: str) -> None:
