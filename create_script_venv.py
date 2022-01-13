@@ -29,6 +29,11 @@ VENV_DIR_NAME: Final[str] = 'venv'
 VENV_DIR: Final[Path] = CONF_DIR / VENV_DIR_NAME
 
 
+def _print_header(message: Final[str])
+    print(message)
+    print('-' * len(message))
+
+
 class EnvBuilderInstallReqs(venv.EnvBuilder):
 
     def __init__(self, *args, **kwargs) -> None:
@@ -52,9 +57,7 @@ class EnvBuilderInstallReqs(venv.EnvBuilder):
         file_mode: Final[int] = 0o770
         encoding: Final[str] = encodings.utf_8.getregentry().name
 
-		msg_create_scripts : Final[str] = 'Create scripts path config file'
-        print(msg_create_scripts)
-        print('-' * len(msg_create_scripts))
+        _print_header('Create scripts path config file')
         print('VEnv dir:', VENV_DIR)
 
         scripts_path_config_file: Path = VENV_DIR / scripts_path_config_file_name
@@ -71,8 +74,7 @@ class EnvBuilderInstallReqs(venv.EnvBuilder):
         pip_cmd_args: list[str] = cls.__assemble_pip_cmd_args(context=context)
 
         print()
-        print('Install requirements.txt using pip')
-        print('----------------------------------')
+		_print_header('Install requirements.txt using pip')
 
         subprocess.check_call(pip_cmd_args)
 
