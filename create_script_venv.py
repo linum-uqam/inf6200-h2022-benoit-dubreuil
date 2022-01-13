@@ -29,7 +29,7 @@ VENV_DIR_NAME: Final[str] = 'venv'
 VENV_DIR: Final[Path] = CONF_DIR / VENV_DIR_NAME
 
 
-def _print_header(message: str):
+def _print_header(message: str) -> None:
     print(message)
     print('-' * len(message))
 
@@ -40,11 +40,9 @@ class EnvBuilderInstallReqs(venv.EnvBuilder):
         super().__init__(*args, **kwargs)
 
     def upgrade_dependencies(self, context: SimpleNamespace) -> None:
-        print(f'Upgrade dependecies : pip, setuptools')
-        print('-------------------------------------')
+        _print_header('Upgrade dependecies : pip, setuptools')
 
         super().upgrade_dependencies(context=context)
-
         self.__install_reqs(context=context)
 
     def post_setup(self, context: SimpleNamespace) -> None:
@@ -74,7 +72,7 @@ class EnvBuilderInstallReqs(venv.EnvBuilder):
         pip_cmd_args: list[str] = cls.__assemble_pip_cmd_args(context=context)
 
         print()
-		_print_header('Install requirements.txt using pip')
+        _print_header('Install requirements.txt using pip')
 
         subprocess.check_call(pip_cmd_args)
 
