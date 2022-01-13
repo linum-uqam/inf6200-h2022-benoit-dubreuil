@@ -52,8 +52,9 @@ class EnvBuilderInstallReqs(venv.EnvBuilder):
         file_mode: Final[int] = 0o770
         encoding: Final[str] = encodings.utf_8.getregentry().name
 
-        print(f'Create scripts path config file')
-        print('----------------------------')
+		msg_create_scripts : Final[str] = 'Create scripts path config file'
+        print(msg_create_scripts)
+        print('-' * len(msg_create_scripts))
         print('VEnv dir:', VENV_DIR)
 
         scripts_path_config_file: Path = VENV_DIR / scripts_path_config_file_name
