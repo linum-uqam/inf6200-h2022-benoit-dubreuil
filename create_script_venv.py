@@ -46,7 +46,7 @@ class EnvBuilderInstallReqs(venv.EnvBuilder):
         self.__install_reqs(context=context)
 
     def post_setup(self, context: SimpleNamespace) -> None:
-        self.__create_scripts_path_config_file()
+        self.__setup_venv_pythonpath_files()
 
     @staticmethod
     def __dir_relative_to_root(project_subdir: Path) -> Path:
@@ -97,22 +97,14 @@ class EnvBuilderInstallReqs(venv.EnvBuilder):
         cls.__create_pythonpath_include_file(include_file, file_content)
 
         return include_file_name
-    @staticmethod
-    def __create_scripts_path_config_file() -> None:
-        path_config_file_dotless_extension: Final[str] = 'pth'
-        scripts_path_config_file_name: Final[str] = '.'.join([SCRIPTS_DIR_NAME, path_config_file_dotless_extension])
-        file_mode: Final[int] = 0o770
-        encoding: Final[str] = encodings.utf_8.getregentry().name
 
-        _print_header('Create scripts path config file')
-        print('VEnv dir:', VENV_DIR)
+    @classmethod
+    def __setup_venv_pythonpath_files(cls) -> None:
+        _print_header('Create the virtual environment PYTHONPATH files')
+        print(f'{VENV_DIR_NAME}={VENV_DIR}')
 
-        scripts_path_config_file: Path = VENV_DIR / scripts_path_config_file_name
-        scripts_path_config_file.touch(mode=file_mode, exist_ok=True)
-        print('Scripts path config file:', scripts_path_config_file)
-
-        scripts_path_config: str = os.path.relpath(path=SCRIPTS_DIR, start=VENV_DIR)
-        scripts_path_config_file.write_text(data=scripts_path_config, encoding=encoding)
+        include_dir_name: str = cls.__include_dir_to_venv_pythonpath(SCRIPTS_DIR)
+        print(f'{SCRIPTS_DIR_NAME}={include_dir_name}')
 
         print()
 
