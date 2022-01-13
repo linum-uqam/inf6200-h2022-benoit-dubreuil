@@ -49,6 +49,14 @@ class EnvBuilderInstallReqs(venv.EnvBuilder):
         self.__create_scripts_path_config_file()
 
     @staticmethod
+    def __create_pythonpath_include_file(include_file: Path, file_content: str) -> None:
+        include_file_mode: Final[int] = 0o660
+        include_file_encoding: Final[str] = encodings.utf_8.getregentry().name
+
+        include_file.parent.mkdir(parents=True, exist_ok=True)
+        include_file.touch(mode=include_file_mode)
+        include_file.write_text(data=file_content, encoding=include_file_encoding)
+    @staticmethod
     def __create_scripts_path_config_file() -> None:
         path_config_file_dotless_extension: Final[str] = 'pth'
         scripts_path_config_file_name: Final[str] = '.'.join([SCRIPTS_DIR_NAME, path_config_file_dotless_extension])
