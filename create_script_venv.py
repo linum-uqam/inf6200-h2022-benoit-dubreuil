@@ -49,6 +49,13 @@ class EnvBuilderInstallReqs(venv.EnvBuilder):
         self.__create_scripts_path_config_file()
 
     @staticmethod
+    def __dir_relative_to_root(project_subdir: Path) -> Path:
+        absolute_dir: Final[Path] = project_subdir.resolve(strict=True)
+        assert absolute_dir.is_dir()
+
+        return absolute_dir.relative_to(ROOT_DIR)
+
+    @staticmethod
     def __create_pythonpath_include_file(include_file: Path, file_content: str) -> None:
         include_file_mode: Final[int] = 0o660
         include_file_encoding: Final[str] = encodings.utf_8.getregentry().name
@@ -57,14 +64,11 @@ class EnvBuilderInstallReqs(venv.EnvBuilder):
         include_file.touch(mode=include_file_mode)
         include_file.write_text(data=file_content, encoding=include_file_encoding)
 
-    @staticmethod
-    def __generate_pythonpath_include_file_name(include_dir: Path) -> str:
+    @classmethod
+    def __generate_pythonpath_include_file_name(cls, include_dir: Path) -> str:
         include_file_extension: Final[str] = 'pth'
 
-        absolute_dir: Final[Path] = include_dir.resolve(strict=True)
-        assert absolute_dir.is_dir()
-
-        relative_dir: Final[Path] = absolute_dir.relative_to(ROOT_DIR)
+        relative_dir: Final[Path] = cls.__dir_relative_to_root(include_dir)
 
         include_path: Final[str] = str(relative_dir.as_posix())
         include_file_name: str = include_path.replace('/', '.')
