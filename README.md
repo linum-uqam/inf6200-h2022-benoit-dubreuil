@@ -1,5 +1,6 @@
-# UQÀM – LINUM
+# INF6200 – Initiation à la recherche
 
-## Hiver 2022
+### UQÀM – LINUM
 
-### INF6200 – Initiation à la recherche
+### Hiver 2022
+
