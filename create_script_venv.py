@@ -53,6 +53,9 @@ class EnvBuilderInstallReqs(venv.EnvBuilder):
         absolute_dir: Final[Path] = project_subdir.resolve(strict=True)
         assert absolute_dir.is_dir()
 
+        if not project_subdir.is_relative_to(ROOT_DIR) and project_subdir.is_absolute():
+            raise ValueError(f"The supplied directory must be a subdirectory within the hierarchy of the project's root directory { {project_subdir, ROOT_DIR}= }")
+
         return absolute_dir.relative_to(ROOT_DIR)
 
     @staticmethod
@@ -69,9 +72,6 @@ class EnvBuilderInstallReqs(venv.EnvBuilder):
         assert include_dir.is_dir()
 
         include_file_extension: Final[str] = 'pth'
-
-        if not include_dir.is_relative_to(ROOT_DIR) and include_dir.is_absolute():
-            raise ValueError(f"The include directory must be a subdirectory within the hierarchy of the project's root directory {{include_dir=, ROOT_DIR=}}")
 
         relative_dir: Final[Path] = cls.__dir_relative_to_root(include_dir)
 
