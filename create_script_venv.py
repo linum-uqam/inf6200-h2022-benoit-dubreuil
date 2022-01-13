@@ -56,6 +56,22 @@ class EnvBuilderInstallReqs(venv.EnvBuilder):
         include_file.parent.mkdir(exist_ok=True)
         include_file.touch(mode=include_file_mode)
         include_file.write_text(data=file_content, encoding=include_file_encoding)
+
+    @staticmethod
+    def __generate_pythonpath_include_file_name(include_dir: Path) -> str:
+        include_file_extension: Final[str] = 'pth'
+
+        absolute_dir: Final[Path] = include_dir.resolve(strict=True)
+        assert absolute_dir.is_dir()
+
+        relative_dir: Final[Path] = absolute_dir.relative_to(ROOT_DIR)
+
+        include_path: Final[str] = str(relative_dir.as_posix())
+        include_file_name: str = include_path.replace('/', '.')
+        include_file_name = '.'.join([include_file_name, include_file_extension])
+
+        return include_file_name
+
     @staticmethod
     def __create_scripts_path_config_file() -> None:
         path_config_file_dotless_extension: Final[str] = 'pth'
