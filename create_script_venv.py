@@ -140,8 +140,7 @@ class EnvBuilderInstallReqs(venv.EnvBuilder):
         return pip_cmd_args
 
 
-venv_builder = EnvBuilderInstallReqs(clear=True,  # TODO : Remove clear arg
-                                     with_pip=True,
+venv_builder = EnvBuilderInstallReqs(with_pip=True,
                                      upgrade_deps=True)
 
 venv_builder.create(env_dir=VENV_DIR)
