@@ -17,7 +17,7 @@ CONF_DIR: Final[Path] = ROOT_DIR / CONF_DIR_NAME
 CONF_DIR.resolve(strict=True)
 
 SCRIPTS_DIR_NAME: Final[str] = 'scripts'
-SCRIPTS_DIR: Final[Path] = CONF_DIR / SCRIPTS_DIR_NAME
+SCRIPTS_DIR: Final[Path] = ROOT_DIR / SCRIPTS_DIR_NAME
 SCRIPTS_DIR.resolve(strict=True)
 
 REQS_FILE_NAME: Final[str] = 'requirements.txt'
