@@ -94,7 +94,7 @@ class EnvBuilderInstallReqs(venv.EnvBuilder):
 
         include_file: Final[Path] = VENV_DIR / include_file_name
 
-        venv_subdir_level: Final[int] = len(VENV_DIR.relative_to(ROOT_DIR).parents)
+        venv_subdir_level: Final[int] = len(cls.__dir_relative_to_root(VENV_DIR).parents)
         venv_to_root_path: Final[str] = os.path.join(os.path.curdir, *(venv_subdir_level * (os.path.pardir,)))
         venv_to_scripts_path: Final[str] = os.path.join(venv_to_root_path, relative_dir)
 
