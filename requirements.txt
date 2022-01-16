@@ -1,2 +1,0 @@
-linumpy
-git+git://gitlab.linum.info.uqam.ca/linum/linumpy.git@master#egg=linumpy
