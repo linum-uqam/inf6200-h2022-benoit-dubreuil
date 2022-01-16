@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import encodings
+import os.path
 import subprocess
 import venv
 
@@ -92,8 +93,12 @@ class EnvBuilderInstallReqs(venv.EnvBuilder):
         include_file_name = cls.__generate_pythonpath_include_file_name(relative_dir)
 
         include_file: Final[Path] = VENV_DIR / include_file_name
-        file_content: Final[str] = str(relative_dir.relative_to(VENV_DIR))
-        cls.__create_pythonpath_include_file(include_file, file_content)
+
+        venv_subdir_level: Final[int] = len(VENV_DIR.relative_to(ROOT_DIR).parents)
+        venv_to_root_path: Final[str] = os.path.join(os.path.curdir, *(venv_subdir_level * (os.path.pardir,)))
+        venv_to_scripts_path: Final[str] = os.path.join(venv_to_root_path, relative_dir)
+
+        cls.__create_pythonpath_include_file(include_file, venv_to_scripts_path)
 
         return include_file_name
 
