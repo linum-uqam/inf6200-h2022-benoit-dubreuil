@@ -1,0 +1,3 @@
+[submodule "linumpy"]
+	path = linumpy
+	url = git@gitlab.linum.info.uqam.ca:linum/linumpy.git
