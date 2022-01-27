@@ -14,7 +14,7 @@ Il est vital d'approfondir les connaissances humaines quant à la disposition in
 
 Actuellement, pour sonder les entrecroisements des faisceaux de fibres blanches dans des cerveaux souris, nous employons un système d’histologie sérielle basée sur un microscope 3D par tomographie en cohérence optique (OCT). Bien que l’OCT est l’une des meilleures techniques de tractographie, entre autres grâce à sa forte sensibilité menant à un contraste plus net, sa précision est affaiblie par son rapport signal sur bruit détérioré selon la profondeur.
 
-Pour contrer ce problème, nous allons préalablement développer dans un autre projet un système d’imagerie innovateur basé sur un microscope par tomographie en cohérence optique réfractive sensible à la polarisation (PS-OCRT).
+Pour contrer ce problème, nous allons préalablement développer dans un autre projet un système d’imagerie innovateur basé sur un microscope par tomographie de la réfraction par cohérence optique sensible à la polarisation (PS-OCRT). Celui-ci combine les avantages de l’OCT avec ceux de la théorie bien établie de la tomodensitométrie.
 
 
 TODO
