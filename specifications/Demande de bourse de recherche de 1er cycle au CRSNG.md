@@ -10,6 +10,8 @@ Reconstruction de la représentation 3D de l’entrecroisement de faisceaux de f
 
 ### Résumé
 
+Il est vital d'approfondir les connaissances humaines quant à la disposition interne aux entrecroisements des faisceaux de fibres blanches cérébrales afin d’éprouver l’exactitude des algorithmes de tractographie au sein de ces régions apparemment inextricables.
+
 TODO
 - Problématique
     - Pourquoi
