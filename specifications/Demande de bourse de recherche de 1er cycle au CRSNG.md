@@ -16,7 +16,7 @@ Actuellement, pour sonder les croisements de fibres de matière blanche dans des
 
 Pour contrer ce problème, nous allons préalablement développer dans un autre projet un système d’imagerie innovateur basé sur un microscope par tomographie de la réfraction par cohérence optique sensible à la polarisation (PS-OCRT). Celui-ci combine les avantages de l’OCT avec ceux de la théorie bien établie de la tomodensitométrie. De nouveaux algorithmes de pointe fondés sur ceux préexistants doivent être conçus pour inclure les données captées par cette avancée théorique et technologique.
 
-Or, le but de ce projet est de reconstruire la représentation de l’organisation 3D des croisements de fibres de matière blanche à l’intérieur des tissus cérébraux à partir de données PS-OCRT. Pour ce faire, il faudra développer lesdits algorithmes, ainsi qu’élaborer des méthodes dédiées de reconstruction de données multidimensionnelles.
+Or, le but de ce projet de recherche est de reconstruire la représentation de l’organisation 3D des croisements de fibres de matière blanche à l’intérieur des tissus cérébraux à partir de données PS-OCRT. Pour ce faire, ce projet de recherche nécessite le développement desdits algorithmes de reconstruction 3D, ainsi que l’élaboration des méthodes dédiées de reconstruction de données multidimensionnelles.
 
 
 
