@@ -6,7 +6,7 @@
 
 ### Titre du projet de recherche proposé
 
-Reconstruction de la représentation 3D
+Reconstruction de la représentation 3D de faisceaux de fibres blanches cérébrales à partir de données PS-OCRT
 
 ### Résumé
 
