@@ -1,6 +1,6 @@
 Montréal, 3 février 2022
 
-Comité institutionnel de sélection des bourses CRSNG
+Comité institutionnel de sélection des bourses CRSNG  
 UQAM
 
 ### Objet : Bourses de recherche de 1er cycle 2022-2023 en milieu universitaire - Été 2022
