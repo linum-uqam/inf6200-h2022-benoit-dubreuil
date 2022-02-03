@@ -15,6 +15,6 @@ Or, pour l’été 2022, j’ai choisi le projet de recherche au sein du LINUM i
 
 Je vous remercie de l'attention que vous porterez à ma candidature,
 
-Benoît Dubreuil
-DUBB26099506
+Benoît Dubreuil  
+DUBB26099506  
 dubreuil.benoit.2@courrier.uqam.ca
