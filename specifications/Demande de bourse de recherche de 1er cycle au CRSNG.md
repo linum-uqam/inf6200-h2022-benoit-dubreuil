@@ -6,7 +6,7 @@
 
 ### Titre du projet de recherche proposé
 
-Reconstruction de la représentation de l’organisation 3D des croisements de fibres de matière blanche à partir de données PS-OCRT
+Reconstruction 3D des croisements de fibres de matière blanche acquis par OCRT
 
 ### Résumé
 
