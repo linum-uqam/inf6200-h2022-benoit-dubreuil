@@ -1,5 +1,4 @@
-
-### MITK
+## MITK Diffusion
 
 C'est une suite d'outils.
 
