@@ -1,3 +1,6 @@
 [submodule "linumpy"]
 	path = lib/linumpy
 	url = git@gitlab.linum.info.uqam.ca:linum/linumpy.git
+[submodule "lib/fiberfox-wrapper"]
+	path = lib/fiberfox-wrapper
+	url = git@github.com:PennBBL/fiberfox-wrapper.git
