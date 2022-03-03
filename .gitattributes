@@ -46,3 +46,10 @@
 
 # Other
 *.exe filter=lfs diff=lfs merge=lfs -text
+
+# MITK
+*.mitk filter=lfs diff=lfs merge=lfs -text
+*.fib filter=lfs diff=lfs merge=lfs -text
+*.dwi filter=lfs diff=lfs merge=lfs -text
+*.nrrd filter=lfs diff=lfs merge=lfs -text
+*.ffp filter=lfs diff=lfs merge=lfs -text
