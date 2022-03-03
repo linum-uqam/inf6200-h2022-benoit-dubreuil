@@ -1,5 +1,8 @@
+# linumpy is the convention
+-r lib/linumpy/requirements.txt
+
 # MITK Diffusion
-numpy
+# numpy # Already in linumpy
 SimpleITK
 dipy
 sklearn
