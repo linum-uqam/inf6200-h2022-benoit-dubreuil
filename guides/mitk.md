@@ -1,4 +1,4 @@
-# Guide de MITK
+# Guide de MITK Diffusion
 
 Note : Il est supposé que l'utilisateur utiliser le système d'exploitation Windows 10 sur son poste de travail.
 
@@ -16,3 +16,7 @@ Note : Il est supposé que l'utilisateur utiliser le système d'exploitation Win
 ## Données
 
 - http://www.tractometer.org/ismrm_2015_challenge/data
+
+## Documentation
+
+- [Documentation non générée](https://github.com/MIC-DKFZ/MITK-Diffusion/tree/master/Plugins/org.mitk.gui.qt.diffusionimaging.fiberfox/documentation/doxygen).
