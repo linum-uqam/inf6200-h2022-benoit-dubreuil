@@ -1,8 +1,13 @@
+# Fix conflicts
+numpy==1.21.*
+
+# Unknown dependency by pip for SimpleITK
+cmake
+scikit-build
+opencv-contrib-python-headless
+
 # linumpy is the convention
 -r lib/linumpy/requirements.txt
-
-# Undocumented requirement for MITK Diffusion (SimpleITK)
-scikit-build
 
 # MITK Diffusion
 # numpy # Already in linumpy
@@ -12,5 +17,5 @@ sklearn
 https://github.com/MIC-DKFZ/batchgenerators/archive/v0.19.5.zip
 https://github.com/MIC-DKFZ/TractSeg/archive/master.zip
 https://github.com/MIC-DKFZ/HD-BET/archive/master.zip
-torch
-torchvision
+torch # Broken as of 2022-03-05 (https://github.com/pytorch/pytorch/issues/66424) : pip3 install --pre torch -f  https://download.pytorch.org/whl/nightly/cpu/torch_nightly.html
+torchvision # Broken as of 2022-03-05 (https://github.com/pytorch/pytorch/issues/66424) : pip3 install --pre torchvision -f  https://download.pytorch.org/whl/nightly/cpu/torch_nightly.html
