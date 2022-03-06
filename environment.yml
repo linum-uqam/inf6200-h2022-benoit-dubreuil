@@ -20,6 +20,7 @@ dependencies:
   - SimpleITK=2.1.*
   - dipy=1.4.*
   - scikit-learn=1.0.* # sklearn
+  - pip
   - pip:
     - git+https://github.com/MIC-DKFZ/batchgenerators/archive/v0.19.5.zip
     - git+https://github.com/MIC-DKFZ/TractSeg/archive/master.zip
