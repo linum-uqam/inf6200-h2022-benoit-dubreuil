@@ -1,8 +1,8 @@
 name: inf6200-h2022
 channels:
+  - pytorch
   - defaults
   - conda-forge
-  - pytorch
 dependencies:
   - python>=3.8
   - flake8=3.8.*
