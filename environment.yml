@@ -1,7 +1,8 @@
 name: inf6200-h2022
 channels:
+  - pytorch
+  - conda-forge 
   - defaults
-  - conda-forge
 dependencies:
   - python>=3.8
   - flake8=3.8.*
@@ -25,6 +26,6 @@ dependencies:
     - git+https://github.com/MIC-DKFZ/batchgenerators/archive/v0.19.5.zip
     - git+https://github.com/MIC-DKFZ/TractSeg/archive/master.zip
     - git+https://github.com/MIC-DKFZ/HD-BET/archive/master.zip
-  - torch=1.10.*
+  - pytorch=1.10.
   - torchvision=0.11.*
   - jupyter
