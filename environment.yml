@@ -1,7 +1,7 @@
 name: inf6200-h2022
 channels:
   - pytorch
-  - conda-forge 
+  - conda-forge
   - defaults
 dependencies:
   - python>=3.8
@@ -22,10 +22,11 @@ dependencies:
   - scikit-learn=1.0.* # sklearn
   - pip
   - pip:
-    - pytest_console_scripts==1.2.*
-    - https://github.com/MIC-DKFZ/batchgenerators/archive/v0.19.5.zip
-    - https://github.com/MIC-DKFZ/TractSeg/archive/master.zip
-    - https://github.com/MIC-DKFZ/HD-BET/archive/master.zip
+      - pytest_console_scripts==1.2.*
+      - https://github.com/MIC-DKFZ/batchgenerators/archive/v0.19.5.zip
+      - https://github.com/MIC-DKFZ/TractSeg/archive/master.zip
+      - https://github.com/MIC-DKFZ/HD-BET/archive/master.zip
   - pytorch=1.10.
   - torchvision=0.11.*
   - jupyter
+  - joblib=1.1.* # fiberfox-wrapper
