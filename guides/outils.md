@@ -1,12 +1,12 @@
-## MITK Diffusion
+## [MITK Diffusion](https://github.com/MIC-DKFZ/MITK-Diffusion/)
 
 C'est une suite d'outils.
 
-https://github.com/MIC-DKFZ/MITK-Diffusion/
+Documentation : https://github.com/MIC-DKFZ/MITK-Diffusion/
 
-Contient , entres autres, les outils suivant. 
+Contient, entres autres, les outils suivant. 
 
-### Fiberfox - Abandonné
+### [Fiberfox](https://docs.mitk.org/2016.11/org_mitk_views_fiberfoxview.html) - Abandonné
 
 Le réplicat généré du fantôme FiberCup se trouve au lien suivant : https://www.nitrc.org/projects/diffusion-data/.
 
@@ -20,7 +20,8 @@ Wrapper Python de Fiberfox, ma version (inachevé) : https://github.com/benoit-d
 
 #### Génération aléatoires de fantômes
 
-Le script `MitkRandomFiberPhantom.(bat | sh)` qui se situe à la racine de l'installation de MITK Diffusion. [Documentation](https://docs.mitk.org/2014.10/org_mitk_views_fiberfoxview.html).
+Le script `MitkRandomFiberPhantom.(bat | sh)` qui se situe à la racine de l'installation de MITK Diffusion.  
+[Documentation](https://docs.mitk.org/2016.11/org_mitk_views_fiberfoxview.html).
 
 
 ## Outil Python de génération de fibre de matière blanche d'[Alex Valcourt Caron](alex.valcourt.caron@usherbrooke.ca)
