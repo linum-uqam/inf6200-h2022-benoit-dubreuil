@@ -14,7 +14,7 @@ Le réplicat généré du fantôme FiberCup se trouve au lien suivant : https://
 #### Wrapper - Abandonné
 
 Wrapper Python de Fiberfox : https://github.com/PennBBL/fiberfox-wrapper  
-Wrapper Python de Fiberfox, mis à jour : https://github.com/dPys/fiberfox-wrapper
+Wrapper Python de Fiberfox, mis à jour : https://github.com/dPys/fiberfox-wrapper  
 Wrapper Python de Fiberfox, ma version (inachevé) : https://github.com/benoit-dubreuil/fiberfox-wrapper
 
 
