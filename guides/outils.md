@@ -21,3 +21,11 @@ Wrapper Python de Fiberfox, ma version (inachevé) : https://github.com/benoit-d
 #### Génération aléatoires de fantômes
 
 Le script `MitkRandomFiberPhantom.(bat | sh)` qui se situe à la racine de l'installation de MITK Diffusion. [Documentation](https://docs.mitk.org/2014.10/org_mitk_views_fiberfoxview.html).
+
+
+## Outil Python de génération de fibre de matière blanche d'[Alex Valcourt Caron](alex.valcourt.caron@usherbrooke.ca)
+
+Alex Valcourt Caron est (hiver 2022) un étudiant au doctorat à l'université de Sherbrooke sous la supervision du professeur [Maxime Descoteaux](maxime.descoteaux@usherbrooke.ca) au laboratoire [SCIL](http://scil.dinf.usherbrooke.ca/). 
+
+L'extrant de l'outil est compatible avec Fiberfox (VTK).  
+L'outil automatise la création manuelle de bundles de fibres de matières blanches de Fiberfox.
