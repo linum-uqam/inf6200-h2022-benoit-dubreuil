@@ -29,3 +29,5 @@ Le script `MitkRandomFiberPhantom.(bat | sh)` qui se situe à la racine de l'ins
 
 L'extrant de l'outil est compatible avec Fiberfox (VTK).  
 L'outil automatise la création manuelle de bundles de fibres de matières blanches de Fiberfox.
+
+L'outil est supporté et utilisable. Il a déjà été utilisé par différentes personnes / étudiants. Il sera encore supporté.
