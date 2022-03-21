@@ -31,3 +31,9 @@ L'extrant de l'outil est compatible avec Fiberfox (VTK).
 L'outil automatise la création manuelle de bundles de fibres de matières blanches de Fiberfox.
 
 L'outil est supporté et utilisable. Il a déjà été utilisé par différentes personnes / étudiants. Il sera encore supporté.
+
+
+## [Phantomas](http://www.emmanuelcaruyer.com/phantomas.php)
+
+Documentation : http://www.emmanuelcaruyer.com/phantomas.php
+Code source : https://github.com/ecaruyer/phantomas
