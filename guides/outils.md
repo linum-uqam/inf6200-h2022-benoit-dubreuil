@@ -35,5 +35,5 @@ L'outil est supporté et utilisable. Il a déjà été utilisé par différentes
 
 ## [Phantomas](http://www.emmanuelcaruyer.com/phantomas.php)
 
-Documentation : http://www.emmanuelcaruyer.com/phantomas.php
+Documentation : http://www.emmanuelcaruyer.com/phantomas.php  
 Code source : https://github.com/ecaruyer/phantomas
