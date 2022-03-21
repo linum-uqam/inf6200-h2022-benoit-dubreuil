@@ -6,12 +6,12 @@ https://github.com/MIC-DKFZ/MITK-Diffusion/
 
 Contient , entres autres, les outils suivant. 
 
-### Fiberfox
+### Fiberfox - Abandonné
 
 Le réplicat généré du fantôme FiberCup se trouve au lien suivant : https://www.nitrc.org/projects/diffusion-data/.
 
 
-#### Wrapper - Abandonné
+#### Wrapper
 
 Wrapper Python de Fiberfox : https://github.com/PennBBL/fiberfox-wrapper  
 Wrapper Python de Fiberfox, mis à jour : https://github.com/dPys/fiberfox-wrapper  
