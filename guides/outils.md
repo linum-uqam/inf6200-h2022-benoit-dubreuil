@@ -20,4 +20,4 @@ Wrapper Python de Fiberfox, ma version (inachevé) : https://github.com/benoit-d
 
 #### Génération aléatoires de fantômes
 
-Le script `MitkRandomFiberPhantom.(bat | sh)` qui se situe à la racine de l'installation de MITK Diffusion.
+Le script `MitkRandomFiberPhantom.(bat | sh)` qui se situe à la racine de l'installation de MITK Diffusion. [Documentation](https://docs.mitk.org/2014.10/org_mitk_views_fiberfoxview.html).
