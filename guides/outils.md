@@ -38,3 +38,11 @@ L'outil est supporté et utilisable. Il a déjà été utilisé par différentes
 
 Documentation : http://www.emmanuelcaruyer.com/phantomas.php  
 Code source : https://github.com/ecaruyer/phantomas
+
+
+## [Overleaf](https://www.overleaf.com)
+
+Editeur de LaTeX pour l'écriture du rapport du cours INF6200.
+
+Lien du document [Overleaf](https://www.overleaf.com) du rapport : https://www.overleaf.com/project/6239d6dc52aac4c86b3c705e  
+Lien d'un exemple PDF d'un rapport écrit avec [Overleaf](https://www.overleaf.com) : https://github.com/linum-uqam/stage-2021-gael/blob/main/Rapport.pdf
