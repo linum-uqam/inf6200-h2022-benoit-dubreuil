@@ -24,7 +24,11 @@ Le script `MitkRandomFiberPhantom.(bat | sh)` qui se situe à la racine de l'ins
 Documentation https://docs.mitk.org/2016.11/org_mitk_views_fiberfoxview.html.
 
 
-## Outil Python de génération de fibre de matière blanche d'[Alex Valcourt Caron](alex.valcourt.caron@usherbrooke.ca)
+## [Simulation Generator](https://bitbucket.org/voxsim/simulation_generator)
+
+Outil Python de génération de fibre de matière blanche d'[Alex Valcourt Caron](alex.valcourt.caron@usherbrooke.ca).
+
+Code source : https://bitbucket.org/voxsim/simulation_generator
 
 [Alex Valcourt Caron](alex.valcourt.caron@usherbrooke.ca) est (hiver 2022) un étudiant au doctorat à l'université de Sherbrooke sous la supervision du professeur [Maxime Descoteaux](maxime.descoteaux@usherbrooke.ca) au laboratoire [SCIL](http://scil.dinf.usherbrooke.ca/). 
 
