@@ -5,6 +5,6 @@ channels:
   - defaults
 dependencies:
   - python>=3.8
-  - pip
+  - pip  # Update pip by running `python -m pip install --upgrade pip`
   - pip:
       - -r requirements.txt

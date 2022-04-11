@@ -1,3 +1,5 @@
+# Update pip by running `pip install --upgrade pip`
+
 # Unknown dependency by pip for SimpleITK
 cmake
 scikit-build
