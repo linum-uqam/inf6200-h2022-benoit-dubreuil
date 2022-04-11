@@ -1,2 +1,7 @@
+# Unknown dependency by pip for SimpleITK
+cmake
+scikit-build
+opencv-contrib-python-headless
+
 git+ssh://git@bitbucket.org/voxsim/simulation_generator#egg=simulation_generator # Install Simulation Generator first
 git+ssh://git@gitlab.linum.info.uqam.ca/linum/linumpy#egg=linumpy # Install LinumPy -> for convention purposes
