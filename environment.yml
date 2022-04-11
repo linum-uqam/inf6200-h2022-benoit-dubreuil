@@ -5,27 +5,7 @@ channels:
   - defaults
 dependencies:
   - python>=3.8
-  - flake8=3.8.*
-  - numpy=1.21.*
-  - opencv
-  - scipy=1.7.*
-  - scikit-image=0.18.*
-  - matplotlib=3.4.*
-  - pytest=6.2.*
-  - pytest-cov=3.0.*
-  - tqdm=4.61.*
-  - imageio=2.9.*
-  - nibabel=3.2.*
-  - coverage=6.1.*
-  - SimpleITK=2.1.*
-  - dipy=1.4.*
-  - scikit-learn=1.0.* # sklearn
   - pip
   - pip:
-      - pytest_console_scripts==1.2.*
-      - https://github.com/MIC-DKFZ/batchgenerators/archive/v0.19.5.zip
-      - https://github.com/MIC-DKFZ/TractSeg/archive/master.zip
-      - https://github.com/MIC-DKFZ/HD-BET/archive/master.zip
-  - pytorch=1.10.
-  - torchvision=0.11.*
-  - jupyter
+      - git+ssh://bitbucket.org/voxsim/simulation_generator#egg=simulation_generator # Install Simulation Generator first
+      - git+ssh://gitlab.linum.info.uqam.ca/linum/linumpy#egg=linumpy # Install LinumPy -> for convention purposes
