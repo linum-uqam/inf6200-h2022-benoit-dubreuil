@@ -8,10 +8,12 @@ Contient, entres autres, les outils suivant.
 
 ### [Fiberfox](https://docs.mitk.org/2016.11/org_mitk_views_fiberfoxview.html)
 
+Abandonné. On l'utilise par l'entremise du [Simulation Generator](#simulation-generator).
+
 Le réplicat généré du fantôme FiberCup se trouve au lien suivant : https://www.nitrc.org/projects/diffusion-data/.
 
 
-#### Wrapper - Abandonné
+#### Wrapper
 
 Wrapper Python de Fiberfox : https://github.com/PennBBL/fiberfox-wrapper  
 Wrapper Python de Fiberfox, mis à jour : https://github.com/dPys/fiberfox-wrapper  
