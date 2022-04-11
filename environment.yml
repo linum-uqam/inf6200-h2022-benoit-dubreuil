@@ -5,7 +5,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python>=3.8
+  - python=3.8
   # LinumPy - begin
   # Necessary because letting those packages be installed as transient dependencies is a pain. See https://github.com/opencv/opencv-python/issues/387.
   - flake8=3.8.*
