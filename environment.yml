@@ -7,5 +7,5 @@ dependencies:
   - python>=3.8
   - pip
   - pip:
-      - git+ssh://bitbucket.org/voxsim/simulation_generator#egg=simulation_generator # Install Simulation Generator first
-      - git+ssh://gitlab.linum.info.uqam.ca/linum/linumpy#egg=linumpy # Install LinumPy -> for convention purposes
+      - git+ssh://git@bitbucket.org/voxsim/simulation_generator#egg=simulation_generator # Install Simulation Generator first
+      - git+ssh://git@gitlab.linum.info.uqam.ca/linum/linumpy#egg=linumpy # Install LinumPy -> for convention purposes
