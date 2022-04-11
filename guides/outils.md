@@ -48,9 +48,9 @@ L'outil est supporté et utilisable. Il a déjà été utilisé par différentes
 
 Il faut utiliser [Singularity](https://sylabs.io/) qui est un exécuteur de conteneurs logiciels.
 
-Voici le [guide d'utilisation](https://sylabs.io/guides/3.5/user-guide/quick_start.html).
+Voici le [guide d'utilisation](https://sylabs.io/guides/latest/user-guide/quick_start.html).
 
-Voici le [guide d'administration](https://sylabs.io/guides/3.5/user-guide/quick_start.html).
+Voici le [guide d'administration](https://sylabs.io/guides/latest/user-guide/quick_start.html).
 
 
 ## [Phantomas](http://www.emmanuelcaruyer.com/phantomas.php)
