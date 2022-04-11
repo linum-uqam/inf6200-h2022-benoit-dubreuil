@@ -6,6 +6,7 @@ Documentation : https://github.com/MIC-DKFZ/MITK-Diffusion/
 
 Contient, entres autres, les outils suivant. 
 
+
 ### [Fiberfox](https://docs.mitk.org/2016.11/org_mitk_views_fiberfoxview.html)
 
 Abandonné. On l'utilise par l'entremise du [Simulation Generator](#simulation-generator).
@@ -38,6 +39,18 @@ L'extrant de l'outil est compatible avec Fiberfox (VTK).
 L'outil automatise la création manuelle de bundles de fibres de matières blanches de Fiberfox.
 
 L'outil est supporté et utilisable. Il a déjà été utilisé par différentes personnes / étudiants. Il sera encore supporté.
+
+
+### Prérequis
+
+
+#### [Singularity](https://sylabs.io/)
+
+Il faut utiliser [Singularity](https://sylabs.io/) qui est un exécuteur de conteneurs logiciels.
+
+Voici le [guide d'utilisation](https://sylabs.io/guides/3.5/user-guide/quick_start.html).
+
+Voici le [guide d'administration](https://sylabs.io/guides/3.5/user-guide/quick_start.html).
 
 
 ## [Phantomas](http://www.emmanuelcaruyer.com/phantomas.php)
