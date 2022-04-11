@@ -1,23 +1,9 @@
-# Use environment.yml with Anaconda instead of this file.
-
-# Fix conflicts
-numpy==1.21.*
+# Update pip by running `pip install --upgrade pip`
 
 # Unknown dependency by pip for SimpleITK
 cmake
 scikit-build
 opencv-contrib-python-headless
 
-# linumpy is the convention
--r lib/linumpy/requirements.txt
-
-# MITK Diffusion
-# numpy # Already in linumpy
-# SimpleITK # Already in Linumpy
-dipy
-sklearn
-https://github.com/MIC-DKFZ/batchgenerators/archive/v0.19.5.zip
-https://github.com/MIC-DKFZ/TractSeg/archive/master.zip
-https://github.com/MIC-DKFZ/HD-BET/archive/master.zip
-torch # Broken as of 2022-03-05 (https://github.com/pytorch/pytorch/issues/66424) : pip3 install --pre torch -f  https://download.pytorch.org/whl/nightly/cpu/torch_nightly.html
-torchvision # Broken as of 2022-03-05 (https://github.com/pytorch/pytorch/issues/66424) : pip3 install --pre torchvision -f  https://download.pytorch.org/whl/nightly/cpu/torch_nightly.html
+git+ssh://git@bitbucket.org/voxsim/simulation_generator#egg=simulation_generator # Install Simulation Generator first
+git+ssh://git@gitlab.linum.info.uqam.ca/linum/linumpy#egg=linumpy # Install LinumPy -> for convention purposes
