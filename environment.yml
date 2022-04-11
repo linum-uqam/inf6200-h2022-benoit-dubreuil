@@ -6,6 +6,7 @@ channels:
   - defaults
 dependencies:
   - python>=3.8
+  # LinumPy - begin
   # Necessary because letting those packages be installed as transient dependencies is a pain. See https://github.com/opencv/opencv-python/issues/387.
   - flake8=3.8.*
   - numpy=1.21.*
@@ -20,6 +21,7 @@ dependencies:
   - nibabel=3.2.*
   - coverage=6.1.*
   - SimpleITK=2.1.*
+  # LinumPy - end
   - pip  # Update pip by running `python -m pip install --upgrade pip`
   - pip:
       - git+ssh://git@bitbucket.org/voxsim/simulation_generator#egg=simulation_generator
