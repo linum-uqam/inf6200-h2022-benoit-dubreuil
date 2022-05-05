@@ -65,7 +65,7 @@ Dans le but d'exploiter Simulation Generator aux fins du projet, je dois moi-mê
 
 #### Documentation
 
-Afin d'avoir accès à la documentation dans un format ergonomique, il faut la construire à partir du script shell `build_documentation.sh`. 
+Afin d'avoir accès à la documentation dans un format ergonomique, il faut la construire à partir du script shell `build_documentation.sh`. Le paquetage `sphinx-apidoc` est requis pour construire la documentation.
 
 Répertoires et fichiers intéressants :
 
