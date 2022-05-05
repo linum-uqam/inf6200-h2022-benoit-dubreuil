@@ -4,7 +4,7 @@ C'est une suite d'outils.
 
 Documentation : https://github.com/MIC-DKFZ/MITK-Diffusion/
 
-Contient, entres autres, les outils suivant. 
+Contient, entres autres, les outils suivant.
 
 
 ### [Fiberfox](https://docs.mitk.org/2016.11/org_mitk_views_fiberfoxview.html)
@@ -33,7 +33,8 @@ Outil [Python](https://www.python.org/) de génération de fibre de matière bla
 
 Code source : https://bitbucket.org/voxsim/simulation_generator
 
-[Alex Valcourt Caron](alex.valcourt.caron@usherbrooke.ca) est (hiver 2022) un étudiant au doctorat à l'université de Sherbrooke sous la supervision du professeur [Maxime Descoteaux](maxime.descoteaux@usherbrooke.ca) au laboratoire [SCIL](http://scil.dinf.usherbrooke.ca/). 
+[Alex Valcourt Caron](alex.valcourt.caron@usherbrooke.ca) est (hiver 2022) un étudiant au doctorat à l'université de Sherbrooke sous la supervision du
+professeur [Maxime Descoteaux](maxime.descoteaux@usherbrooke.ca) au laboratoire [SCIL](http://scil.dinf.usherbrooke.ca/).
 
 L'extrant de l'outil est compatible avec Fiberfox (VTK).  
 L'outil automatise la création manuelle de bundles de fibres de matières blanches de Fiberfox.
@@ -46,7 +47,8 @@ L'outil est supporté et utilisable. Il a déjà été utilisé par différentes
 
 #### [Singularity](https://sylabs.io/)
 
-Il faut utiliser [Singularity](https://sylabs.io/) qui est un exécuteur de conteneurs logiciels. Il faut l'installer sur une machine Linux. Pour Windows, utiliser l'environnement WSL2.
+Il faut utiliser [Singularity](https://sylabs.io/) qui est un exécuteur de conteneurs logiciels. Il faut l'installer sur une machine Linux. Pour Windows, utiliser l'environnement
+WSL2.
 
 Voici le [guide d'utilisation](https://sylabs.io/guides/latest/user-guide/quick_start.html).
 
@@ -65,13 +67,14 @@ Dans le but d'exploiter Simulation Generator aux fins du projet, je dois moi-mê
 
 #### Documentation
 
-Afin d'avoir accès à la documentation dans un format ergonomique, il faut la construire à partir du script shell `build_documentation.sh`. Le paquetage `sphinx-apidoc` est requis pour construire la documentation.
+Afin d'avoir accès à la documentation dans un format ergonomique, il faut la construire à partir du script shell `build_documentation.sh`. Le paquetage `sphinx-apidoc` est requis
+pour construire la documentation.
 
 Répertoires et fichiers intéressants :
 
 - `scripts/` contient des exemples
 - `simulator/` contient l'API
-- `scripts/geometry_factory.py` 
+- `scripts/geometry_factory.py`
 
 
 #### Glossaire
