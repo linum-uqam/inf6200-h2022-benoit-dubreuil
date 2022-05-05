@@ -1,4 +1,4 @@
-# Update pip by running `pip install --upgrade pip`
+# Update pip by running `python3 -m pip install --upgrade pip`
 
 wheel
 
