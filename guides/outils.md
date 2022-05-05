@@ -29,7 +29,7 @@ Documentation https://docs.mitk.org/2016.11/org_mitk_views_fiberfoxview.html.
 
 ## [Simulation Generator](https://bitbucket.org/voxsim/simulation_generator)
 
-Outil Python de génération de fibre de matière blanche d'[Alex Valcourt Caron](alex.valcourt.caron@usherbrooke.ca).
+Outil [Python](https://www.python.org/) de génération de fibre de matière blanche d'[Alex Valcourt Caron](alex.valcourt.caron@usherbrooke.ca).
 
 Code source : https://bitbucket.org/voxsim/simulation_generator
 
@@ -46,11 +46,42 @@ L'outil est supporté et utilisable. Il a déjà été utilisé par différentes
 
 #### [Singularity](https://sylabs.io/)
 
-Il faut utiliser [Singularity](https://sylabs.io/) qui est un exécuteur de conteneurs logiciels.
+Il faut utiliser [Singularity](https://sylabs.io/) qui est un exécuteur de conteneurs logiciels. Il faut l'installer sur une machine Linux. Pour Windows, utiliser l'environnement WSL2.
 
 Voici le [guide d'utilisation](https://sylabs.io/guides/latest/user-guide/quick_start.html).
 
 Voici le [guide d'administration](https://sylabs.io/guides/latest/admin-guide/).
+
+
+#### Python
+
+Si Windows est utilisé, alors il faut que Python ≥ 3.7 soit installé dans l'environnement WSL2. Simulation Generator appelle la singularité à partir de scripts Python.
+
+
+### Utilisation
+
+Dans le but d'exploiter Simulation Generator aux fins du projet, je dois moi-même développer le ou les fichiers de configuration des paramètres de génération (ex: base_anchors).
+
+
+#### Documentation
+
+Afin d'avoir accès à la documentation dans un format ergonomique, il faut la construire à partir du script shell `build_documentation.sh`. 
+
+Répertoires et fichiers intéressants :
+
+- `scripts/` contient des exemples
+- `simulator/` contient l'API
+- `scripts/geometry_factory.py` 
+
+
+#### Glossaire
+
+- **Centroïde d'un bundle** : ligne directrice au centre du bundle, c'est-à-dire l'axe.
+
+
+#### Remarques
+
+Ce n'est pas grave si les ancres dépassent les limites. À cause de petits problèmes de clipping, on souhaite dépasser les ancres.
 
 
 ## [Phantomas](http://www.emmanuelcaruyer.com/phantomas.php)
@@ -63,5 +94,5 @@ Code source : https://github.com/ecaruyer/phantomas
 
 Editeur de LaTeX pour l'écriture du rapport du cours INF6200.
 
-Lien du document [Overleaf](https://www.overleaf.com) du rapport : https://www.overleaf.com/project/6239d6dc52aac4c86b3c705e  
-Lien d'un exemple PDF d'un rapport écrit avec [Overleaf](https://www.overleaf.com) : https://github.com/linum-uqam/stage-2021-gael/blob/main/Rapport.pdf
+Lien du document Overleaf du rapport : https://www.overleaf.com/project/6239d6dc52aac4c86b3c705e  
+Lien d'un exemple PDF d'un rapport écrit avec Overleaf : https://github.com/linum-uqam/stage-2021-gael/blob/main/Rapport.pdf
