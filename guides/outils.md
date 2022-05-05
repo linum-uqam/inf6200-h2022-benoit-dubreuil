@@ -44,6 +44,8 @@ L'outil est supporté et utilisable. Il a déjà été utilisé par différentes
 
 ### Prérequis
 
+Voir la page du projet [Simulation Generator](https://bitbucket.org/voxsim/simulation_generator).
+
 
 #### [Singularity](https://sylabs.io/)
 
@@ -67,8 +69,7 @@ Dans le but d'exploiter Simulation Generator aux fins du projet, je dois moi-mê
 
 #### Documentation
 
-Afin d'avoir accès à la documentation dans un format ergonomique, il faut la construire à partir du script shell `build_documentation.sh`. Le paquetage `sphinx-apidoc` est requis
-pour construire la documentation.
+Afin d'avoir accès à la documentation dans un format ergonomique, il faut la construire à partir du script shell `build_documentation.sh` lorsque l'environnement Python est activé.
 
 Répertoires et fichiers intéressants :
 
