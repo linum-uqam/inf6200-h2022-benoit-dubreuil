@@ -70,12 +70,14 @@ Si Windows est utilisé, alors il faut que Python ≥ 3.7 soit installé dans l'
 
 ### Utilisation
 
-Dans le but d'exploiter Simulation Generator aux fins du projet, je dois moi-même développer le ou les fichiers de configuration des paramètres de génération (ex: base_anchors).
+Dans le but d'exploiter Simulation Generator aux fins du projet, je dois moi-même développer le ou les fichiers de configuration des paramètres de génération (ex:
+base_anchors).
 
 
 #### Documentation
 
-Afin d'avoir accès à la documentation dans un format ergonomique, il faut la construire à partir du script shell `build_documentation.sh` lorsque l'environnement Python est activé.
+Afin d'avoir accès à la documentation dans un format ergonomique, il faut la construire à partir du script shell `build_documentation.sh` lorsque l'environnement Python
+est activé.
 
 Répertoires et fichiers intéressants :
 
