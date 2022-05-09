@@ -54,7 +54,9 @@ Voir la page du projet [Simulation Generator](https://bitbucket.org/voxsim/simul
 
 #### [Singularity](https://sylabs.io/)
 
-[Singularity](https://sylabs.io/) est un exécuteur de conteneurs logiciels employé afin de rouler la simulation de la capture d'IRM.
+[Singularity](https://sylabs.io/) est un exécuteur de conteneurs logiciels employé afin de rouler la simulation.
+La simulation consiste en la génération de fibres de matière blanche jusqu'à la simulation de l'acquisition de signaux d'IRM.
+
 Il faut l'installer sur une machine Linux.
 Pour Windows, utiliser l'environnement WSL2. Or, étant donné que seulement la génération de la géométrie de faisceaux de fibres de matière blanche est utile pour le
 projet, alors Singularity est **optionnel**.
