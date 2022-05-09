@@ -78,6 +78,39 @@ Dans le but d'exploiter Simulation Generator aux fins du projet, je dois moi-mê
 base_anchors).
 
 
+#### Exécution
+
+Activez l'environnement Python dans lequel [Simulation Generator](#simulation-generator) a été installé.
+
+```shell
+source ./env/bin/activate
+```
+
+Lancez la simulation en prenant soin de ne fournir que des chemins absolus dépourvus de liens symboliques.
+Dans le cas suivant, je suis connecté au sous-système Ubuntu (WSL2) de ma machine Windows 10.
+
+```shell
+python3 ./simulation_generator/scripts/simulation_runner.py --out /mnt/c/Users/Admin/Documents/Moi/Workspace/School/UQAM/inf6200-h2022/user/out
+```
+
+Allez dans dans le dossier `geometry_outputs`.
+
+```shell
+cd ./out/geometry_outputs/
+```
+
+Constatez les fichiers extrants.
+
+```shell
+ls -l
+```
+
+Constatez le fichier `*merged_bundles.fib` qui contient la fusion de tous bundles générés de fibres de matière blanche.
+
+```shell
+ls -l *merged_bundles.fib
+```
+
 #### Extrants
 
 La simulation (VoxSim) génère, entre autres, des fichiers `*.fib` dans le dossier `geometry_outputs` de la sortie, en plus des fichiers `*.vspl` et `*geometry_base.json`
