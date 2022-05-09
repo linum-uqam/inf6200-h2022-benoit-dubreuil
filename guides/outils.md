@@ -9,7 +9,11 @@ Contient, entres autres, les outils suivant.
 
 ### [Fiberfox](https://docs.mitk.org/2016.11/org_mitk_views_fiberfoxview.html)
 
-Abandonné. On l'utilise par l'entremise du [Simulation Generator](#simulation-generator).
+On l'utilise pour visualiser les fibres (`*.fib`) générées par la bibliothèque logicielle [Simulation Generator](#simulation-generator).
+
+Le logiciel [Mi-Brain](https://scil-documentation.readthedocs.io/en/latest/tools/mi-brain.html) peut être utilisé à la place de Fiberfox, puisque ce premier est
+conceptuellement une couche de visualisation par-dessus MITK-Diffusion.
+Il est plus léger et plus simple à utiliser que MITK Diffusion.
 
 Le réplicat généré du fantôme FiberCup se trouve au lien suivant : https://www.nitrc.org/projects/diffusion-data/.
 
