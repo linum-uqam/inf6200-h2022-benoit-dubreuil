@@ -91,6 +91,7 @@ Les fichiers `*.nii` sont des images 3D / 4D.
 
 Les fichiers `*.vtk` contiennent les points sur les surfaces des sphères
 
+Pour l'instant, seulement les fichiers `*.fib` nous intéressent.
 
 #### Documentation
 
