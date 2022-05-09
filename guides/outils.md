@@ -90,7 +90,9 @@ Répertoires et fichiers intéressants :
 
 #### Glossaire
 
-- **Centroïde d'un bundle** : ligne directrice au centre du bundle, c'est-à-dire l'axe.
+- **Centroïde de bundle** ([Simulation Generator](#simulation-generator)) : ligne directrice au centre du bundle, c'est-à-dire l'axe.
+  Dans l'outil [Simulation Generator](#simulation-generator), un centroïde de bundle est définit par l'entremise d'une [spline](https://fr.wikipedia.org/wiki/Spline)
+  composée d'ancres.
 
 
 #### Remarques
