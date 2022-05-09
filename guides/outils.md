@@ -54,7 +54,8 @@ Voir la page du projet [Simulation Generator](https://bitbucket.org/voxsim/simul
 
 #### [Singularity](https://sylabs.io/)
 
-[Singularity](https://sylabs.io/) est un exécuteur de conteneurs logiciels employé afin de rouler la simulation.
+[Singularity](https://sylabs.io/) est un exécuteur de conteneurs logiciels employé afin de simplifier l'accès à [VoxSim](https://bitbucket.org/voxsim/), le rouleur de
+simulations de fibres de matière blanche qui est basé sur MITK Diffusion.
 La simulation consiste en la génération de fibres de matière blanche jusqu'à la simulation de l'acquisition de signaux d'IRM.
 
 Il faut l'installer sur une machine Linux.
