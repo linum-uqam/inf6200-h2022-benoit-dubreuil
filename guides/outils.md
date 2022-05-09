@@ -80,8 +80,8 @@ base_anchors).
 
 #### Extrants
 
-La simulation (VoxSim) génère, entre autres, des fichiers `*.fib` dans le dossier `geometry_outputs` de la sortie, en plus des fichiers `*.vspl` et
-et `*geometry_base.json` à la racine de la sortie.
+La simulation (VoxSim) génère, entre autres, des fichiers `*.fib` dans le dossier `geometry_outputs` de la sortie, en plus des fichiers `*.vspl` et `*geometry_base.json`
+à la racine de la sortie.
 
 Le fichier `*.vspl` est un fichier de configuration et de limites de fibres.
 C’est en fait le monde des fibres ou des grappes (clusters) de fibres.
