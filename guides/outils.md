@@ -93,6 +93,7 @@ Répertoires et fichiers intéressants :
 - **Centroïde de bundle** ([Simulation Generator](#simulation-generator)) : ligne directrice au centre du bundle, c'est-à-dire l'axe.
   Dans l'outil [Simulation Generator](#simulation-generator), un centroïde de bundle est définit par l'entremise d'une [spline](https://fr.wikipedia.org/wiki/Spline)
   composée d'ancres.
+  Lors de la simulation, la spline génère des ellipses, tout comme [Fiberfox](#fiberfox).
 - **Sphèrere** ([Simulation Generator](#simulation-generator)) : définit un compartiment qui n'est pas de la matière blanche, par exemple la matière grise ou de l'eau.
 
 
