@@ -33,12 +33,13 @@ Documentation https://docs.mitk.org/2016.11/org_mitk_views_fiberfoxview.html.
 
 ## [Simulation Generator](https://bitbucket.org/voxsim/simulation_generator)
 
-Outil [Python](https://www.python.org/) de génération de fibre de matière blanche d'[Alex Valcourt Caron](alex.valcourt.caron@usherbrooke.ca).
+Outil [Python](https://www.python.org/) de génération de fibre de matière blanche développé par [Alex Valcourt Caron](mailto:alex.valcourt.caron@usherbrooke.ca).
+Cet outil est un wrapper Python de VoxSim.
 
 Code source : https://bitbucket.org/voxsim/simulation_generator
 
-[Alex Valcourt Caron](alex.valcourt.caron@usherbrooke.ca) est (hiver 2022) un étudiant au doctorat à l'université de Sherbrooke sous la supervision du
-professeur [Maxime Descoteaux](maxime.descoteaux@usherbrooke.ca) au laboratoire [SCIL](http://scil.dinf.usherbrooke.ca/).
+Alex Valcourt Caron est un étudiant au doctorat à l'université de Sherbrooke (hiver 2022) sous la supervision du
+professeur [Maxime Descoteaux](mailto:maxime.descoteaux@usherbrooke.ca) au laboratoire [SCIL](http://scil.dinf.usherbrooke.ca/).
 
 L'extrant de l'outil est compatible avec Fiberfox (VTK).  
 L'outil automatise la création manuelle de bundles de fibres de matières blanches de Fiberfox.
