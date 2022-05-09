@@ -44,7 +44,9 @@ professeur [Maxime Descoteaux](mailto:maxime.descoteaux@usherbrooke.ca) au labor
 L'extrant de l'outil est compatible avec Fiberfox (VTK).  
 L'outil automatise la création manuelle de bundles de fibres de matières blanches de Fiberfox.
 
-L'outil est supporté et utilisable. Il a déjà été utilisé par différentes personnes / étudiants. Il sera encore supporté.
+L'outil est supporté et utilisable.
+Il a déjà été utilisé par différentes personnes / étudiants.
+Il sera encore supporté.
 
 
 ### Prérequis
