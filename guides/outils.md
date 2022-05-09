@@ -77,6 +77,13 @@ Si Windows est utilisé, alors il faut que Python ≥ 3.7 soit installé dans l'
 Dans le but d'exploiter Simulation Generator aux fins du projet, je dois moi-même développer le ou les fichiers de configuration des paramètres de génération (ex:
 base_anchors).
 
+La simulation (VoxSim) génère, entre autres, des fichiers `*.fib` dans le dossier `geometry_outputs` de la sortie, en plus des fichiers `*.vspl` et
+et `*geometry_base.json` à la racine de la sortie.
+
+Le fichier `*.vspl` est un fichier de configuration et de limites de fibres.
+C’est en fait le monde des fibres ou des grappes (clusters) de fibres.
+Penser à un monde local d’un modèle / objet en infographie vs `*geometry_base.json` qui est le monde racine.
+
 
 #### Documentation
 
