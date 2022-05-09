@@ -58,11 +58,9 @@ Voir la page du projet [Simulation Generator](https://bitbucket.org/voxsim/simul
 La simulation consiste en la génération de fibres de matière blanche jusqu'à la simulation de l'acquisition de signaux d'IRM.
 
 Il faut l'installer sur une machine Linux.
-Pour Windows, utiliser l'environnement WSL2. Or, étant donné que seulement la génération de la géométrie de faisceaux de fibres de matière blanche est utile pour le
-projet, alors Singularity est **optionnel**.
+Pour Windows, utiliser l'environnement WSL2.
 
 Voici le [guide d'utilisation](https://sylabs.io/guides/latest/user-guide/quick_start.html).
-
 Voici le [guide d'administration](https://sylabs.io/guides/latest/admin-guide/).
 
 
