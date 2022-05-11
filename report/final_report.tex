@@ -2,17 +2,24 @@
 
 \usepackage{arxiv}
 
-\usepackage{natbib}         % more citation options
-\usepackage[french]{babel}  % Décommenter pour écrire en français
-\usepackage[utf8]{inputenc} % allow utf-8 input
-\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
-\usepackage{hyperref}       % hyperlinks
-\usepackage{url}            % simple URL typesetting
-\usepackage{booktabs}       % professional-quality tables
-\usepackage{amsfonts}       % blackboard math symbols
-\usepackage{nicefrac}       % compact symbols for 1/2, etc.
-\usepackage{microtype}      % microtypography
+\usepackage{natbib}           % more citation options
+\usepackage[french]{babel}    % Décommenter pour écrire en français
+% \usepackage[utf8]{inputenc} % allow utf-8 input. Can use XeLaTeX instead.
+\usepackage[T1]{fontenc}      % use 8-bit T1 fonts
+\usepackage{hyperref}         % hyperlinks
+\usepackage{url}              % simple URL typesetting
+\usepackage{booktabs}         % professional-quality tables
+\usepackage{amssymb}          % blackboard math symbols
+\usepackage{pifont}           % Ballot symbols
+\usepackage{fontspec}         % XeLaTeX
+\usepackage{nicefrac}         % compact symbols for 1/2, etc.
+\usepackage{microtype}        % microtypography
 \usepackage{lipsum}
+
+\setmainfont{Times New Roman} % XeLaTeX
+
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}%
 
 \setcitestyle{authoryear,open={(},close={)}}
 
