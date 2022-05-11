@@ -16,6 +16,7 @@
 \usepackage{microtype}        % microtypography
 \usepackage{lipsum}
 \usepackage{float}            % inline table with [H]
+\usepackage{graphicx}         % show image
 
 \setmainfont{Times New Roman} % XeLaTeX
 
@@ -23,6 +24,8 @@
 \newcommand{\xmark}{\ding{55}}
 
 \setcitestyle{authoryear,open={(},close={)}}
+
+\graphicspath{ {./} }
 
 \title{
   Rapport final \\
@@ -160,6 +163,13 @@
   \end{table}
 
   \textit{Phantomas} n'a pas été testé, d'où le manque de résultats dans la table~\ref{tab:tab1}.
+
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{simulation_generator_results}
+    \caption{Extrants de \textit{Simulation Generator} visualisés dans \textit{Fiberfox}}
+    \label{fig:fig1}
+  \end{figure}
 
   % TODO
 
