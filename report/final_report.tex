@@ -4,7 +4,6 @@
 
 \usepackage{arxiv}
 
-\usepackage{natbib}           % more citation options
 \usepackage[french]{babel}    % Décommenter pour écrire en français
 \usepackage[T1]{fontenc}      % use 8-bit T1 fonts
 \usepackage{hyperref}         % hyperlinks
@@ -23,8 +22,6 @@
 
 \newcommand{\cmark}{\ding{51}}
 \newcommand{\xmark}{\ding{55}}
-
-\setcitestyle{authoryear,open={(},close={)}}
 
 \graphicspath{ {./} }
 
@@ -61,9 +58,9 @@
   Cette méthode de neuroimagerie est fréquemment utilisée en clinique pour préparer les neurochirurgies et étudier la connectivité structurelle du cerveau au cours du
   développement ou dans le contexte de diverses neuropathologies (ex.\ maladie de Parkinson).
   Pour la recherche fondamentale, des techniques de neurophotonique peuvent être utilisées pour imager à l’échelle micrométrique la matière blanche dans des régions
-  précises d'échantillons de cerveau~\citep{lefebvre2021oct}.
+  précises d'échantillons de cerveau~\cite{lefebvre2021oct}.
   Ensuite, des algorithmes d'analyse 3D sont utilisés pour identifier la présence de matière blanche et détecter son orientation 3D\@.
-  Cette information est par la suite utilisée avec de nouveaux algorithmes de tractographie~\citep{oliveirasicard2021orientation3d}.
+  Cette information est par la suite utilisée avec de nouveaux algorithmes de tractographie~\cite{oliveirasicard2021orientation3d}.
 
   \subsection{Description du projet}
   \label{subsec:description-du-projet}
@@ -81,7 +78,7 @@
   Au cours de la session d'hiver 2022 à l'Université du Québec à Montréal (UQÀM), en tant qu'étudiant au baccalauréat en informatique et génie logiciel (ch.
   coopératif, Honor) inscrit au cours d'initiation à la recherche (INF6200) sous la supervision du professeur Joël Lefebvre, ce dernier et moi avons exploré et étudié
   des outils scientifiques déjà existants dans le but de répondre à nos besoins.
-  Nous sommes parvenus à trouver une bibliothèque logicielle, \textit{Simulation Generator}~\citep{valcourtcaron2022simulationgenerator}, qui satisfait nos exigences.
+  Nous sommes parvenus à trouver une bibliothèque logicielle, \textit{Simulation Generator}~\cite{valcourtcaron2022simulationgenerator}, qui satisfait nos exigences.
   La prochaine section décrit nos démarches, ainsi que les critères de sélection de logiciels scientifiques.
 
 
@@ -99,12 +96,12 @@
   projet, soit la neurophotonique, et la matière du but du projet, soit la tractographie.
 
   La littérature scientifique lue est composée, entre autres, des papiers de recherche
-  \textit{The challenge of mapping the human connectome based on diffusion tractography}~\citep{maierhein2017mappingconnectomedifftracto},
-  \textit{Diffusion microscopist simulator: a general Monte Carlo simulation system for diffusion magnetic resonance imaging}~\citep{yeh2013diffmicrosim},
-  \textit{Augmented serial blockface histology}~\citep{lefebvre2019augserialblockfacehist},
-  \textit{Optical coherence refraction tomography}~\citep{zhou2019ocrt},
-  \textit{Polarization-Sensitive Optical coherence refraction tomography}~\citep{lefebvre2021psocrt},
-  \textit{Fiberfox: facilitating the creation of realistic white matter software phantoms}~\citep{neher2014fiberfox}.
+  \textit{The challenge of mapping the human connectome based on diffusion tractography}~\cite{maierhein2017mappingconnectomedifftracto},
+  \textit{Diffusion microscopist simulator: a general Monte Carlo simulation system for diffusion magnetic resonance imaging}~\cite{yeh2013diffmicrosim},
+  \textit{Augmented serial blockface histology}~\cite{lefebvre2019augserialblockfacehist},
+  \textit{Optical coherence refraction tomography}~\cite{zhou2019ocrt},
+  \textit{Polarization-Sensitive Optical coherence refraction tomography}~\cite{lefebvre2021psocrt},
+  \textit{Fiberfox: facilitating the creation of realistic white matter software phantoms}~\cite{neher2014fiberfox}.
 
   \subsection{Headings: Identification de logiciels scientifiques}
   \label{subsec:headings:software-search}
@@ -126,7 +123,7 @@
 
   L'étape du prototypage est primordiale à la vérification de l'utilité et du respect des exigences pour logiciel scientifique identifié.
   Pour ce faire, je tentais par tous les moyens possibles d'employer une \href{https://fr.wikipedia.org/wiki/Interface_de_programmation}{API} publique du logiciel ciblé.
-  Par exemple, j'ai d'abord essayé d'utiliser \textit{Fiberfox}~\citep{neher2014fiberfox} programmatiquement, mais en vain.
+  Par exemple, j'ai d'abord essayé d'utiliser \textit{Fiberfox}~\cite{neher2014fiberfox} programmatiquement, mais en vain.
   Alors, j'ai réussi à trouver et employer plusieurs adaptateurs sur GitHub me permettant grossièrement interfacer \textit{Fiberfox}.
 
 
@@ -134,7 +131,7 @@
   \label{sec:results}
 
   Nous avions identifié plusieurs logiciels scientifiques potentiellement capable de satisfaire les exigences du projet.
-  Ceux-ci sont \textit{Fiberfox}, les adaptateurs de \textit{Fiberfox} sur GitHub, \textit{Simulation Generator} et \textit{Phantomas}~\citep{caruyer2014phantomas}.
+  Ceux-ci sont \textit{Fiberfox}, les adaptateurs de \textit{Fiberfox} sur GitHub, \textit{Simulation Generator} et \textit{Phantomas}~\cite{caruyer2014phantomas}.
 
   \begin{table}[H]
 
@@ -194,7 +191,7 @@
 
 
   % Ajoutez vos références (format bibtex) dans le fichier references.bib
-  \bibliographystyle{unsrtnat}
+  \bibliographystyle{unsrt}
   \bibliography{references}
 
 \end{document}
