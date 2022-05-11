@@ -15,6 +15,7 @@
 \usepackage{nicefrac}         % compact symbols for 1/2, etc.
 \usepackage{microtype}        % microtypography
 \usepackage{lipsum}
+\usepackage{float}            % inline table with [H]
 
 \setmainfont{Times New Roman} % XeLaTeX
 
@@ -131,14 +132,12 @@
   Nous avions identifié plusieurs logiciels scientifiques potentiellement capable de satisfaire les exigences du projet.
   Ceux-ci sont \textit{Fiberfox}, les adaptateurs de \textit{Fiberfox} sur GitHub, \textit{Simulation Generator} et \textit{Phantomas}~\citep{caruyer2014phantomas}.
 
-  % TODO
-  \begin{table}
+  \begin{table}[H]
 
     \caption{Satisfaction aux exigences par les logiciels scientifiques identifiés}
     \centering
 
     \begin{tabular}{ |c| c c c c | }
-
       \toprule
 
       Critère
@@ -155,11 +154,12 @@
       \textbf{Python}                     & \xmark & \cmark & \cmark & - \\
 
       \bottomrule
-
     \end{tabular}
     \label{tab:table}
 
   \end{table}
+
+  % TODO
 
 
   \section{Discussion}
