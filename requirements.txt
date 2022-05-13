@@ -1,0 +1,19 @@
+# Update pip by running `python3 -m pip install --upgrade pip`
+
+wheel
+
+
+# Simulation Generator
+# 2022-05-05 : Simulation Generator requirements are legacy packages and thus need some workarounds to install them.
+#
+# If gcc is installed but matplotlib's installation throws a legacy-install-failure error with the message "unable to execute 'x86_64-linux-gnu-g++': No such file or directory",
+# then:
+# sudo ln -T /usr/bin/gcc /usr/local/bin/x86_64-linux-gnu-gcc
+# sudo ln -T /usr/bin/gcc /usr/local/bin/x86_64-linux-gnu-g++
+#
+# pip install -r requirements.txt
+#
+# sudo unlink /usr/local/bin/x86_64-linux-gnu-gcc
+# sudo unlink /usr/local/bin/x86_64-linux-gnu-g++
+
+git+ssh://git@bitbucket.org/voxsim/simulation_generator#egg=simulation_generator
